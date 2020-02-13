@@ -2,11 +2,11 @@ public class Animal {
 
     private String name;
 
-    Animal(){
+     Animal(){
 
     }
 
-    Animal (String name){
+     Animal (String name){
         this.name = name;
     }
 
@@ -16,6 +16,6 @@ public class Animal {
 
     public void eat (){
 
-        System.out.println( name + " eats");
+        System.out.println( name + " eats ");
     }
 }
