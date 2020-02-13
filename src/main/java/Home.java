@@ -6,7 +6,7 @@ public class Home {
     ArrayList<Animal> pet = new ArrayList<Animal>();
 
 
-    public void adoptPet(Animal object)   {
+    public void adoptPet(Animal object) {
         pet.add(object);
         System.out.println("This prints : ");
     }
