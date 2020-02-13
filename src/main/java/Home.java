@@ -13,7 +13,7 @@ public class Home {
 
     public void makeAllSounds(){
 
-        for (Animal i: pet) {
+        for (Animal i:pet) {
             i.sounds();
         }
 

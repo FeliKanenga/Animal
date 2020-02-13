@@ -6,8 +6,8 @@ public class MainProgram {
         Dog dog2 = new Dog();
         Cat cat1 = new Cat();
 
-        Dog dog3 = new Dog("Rex");
-        Cat cat2 = new Cat("Stormy");
+        Dog dog = new Dog("Rex");
+        Cat cat = new Cat("Stormy");
 
         home.makeAllSounds();
 
@@ -20,7 +20,7 @@ public class MainProgram {
         home.adoptPet(dog2);
         home.makeAllSounds();
 
-        dog3.eat();
-        cat2.eat();
+        dog.eat();
+        cat.eat();
     }
 }
